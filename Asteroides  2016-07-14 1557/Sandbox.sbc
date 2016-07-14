@@ -1,0 +1,1053 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CurrentSector x="0" y="0" z="0" />
+  <ElapsedGameTime>91593760000</ElapsedGameTime>
+  <SessionName>Asteroides  2016-07-14 15:57</SessionName>
+  <SpectatorPosition>
+    <Position x="40203.114650046795" y="114111.71836603398" z="-123279.62442957006" />
+    <Forward x="0.8736863" y="0.483148575" z="0.056917984" />
+    <Up x="-0.482126564" y="0.8755384" z="-0.03140908" />
+    <Orientation>
+      <X>0.17056559</X>
+      <Y>-0.7066586</Y>
+      <Z>0.182039</Z>
+      <W>0.6621199</W>
+    </Orientation>
+  </SpectatorPosition>
+  <SpectatorIsLightOn>false</SpectatorIsLightOn>
+  <CameraController>Entity</CameraController>
+  <CameraEntity>94909950942329530</CameraEntity>
+  <ControlledObject>94909950942329530</ControlledObject>
+  <Password />
+  <Description />
+  <LastSaveTime>2016-07-14T20:43:55.5606025-03:00</LastSaveTime>
+  <SpectatorDistance>36.6621056</SpectatorDistance>
+  <CharacterToolbar>
+    <ToolbarType>Character</ToolbarType>
+    <SelectedSlot>0</SelectedSlot>
+    <Slots>
+      <Slot>
+        <Index>0</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>1</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>2</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>3</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>4</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_MergeBlock" Subtype="LargeShipMergeBlock" />
+        </Data>
+      </Slot>
+    </Slots>
+  </CharacterToolbar>
+  <ControlledEntities>
+    <dictionary>
+      <item>
+        <Key xsi:type="xsd:long">94909950942329530</Key>
+        <Value xsi:type="PlayerId">
+          <ClientId>76561198021230045</ClientId>
+          <SerialId>0</SerialId>
+        </Value>
+      </item>
+    </dictionary>
+  </ControlledEntities>
+  <Settings xsi:type="MyObjectBuilder_SessionSettings">
+    <GameMode>Survival</GameMode>
+    <InventorySizeMultiplier>10</InventorySizeMultiplier>
+    <AssemblerSpeedMultiplier>10</AssemblerSpeedMultiplier>
+    <AssemblerEfficiencyMultiplier>10</AssemblerEfficiencyMultiplier>
+    <RefinerySpeedMultiplier>10</RefinerySpeedMultiplier>
+    <OnlineMode>FRIENDS</OnlineMode>
+    <MaxPlayers>4</MaxPlayers>
+    <MaxFloatingObjects>1024</MaxFloatingObjects>
+    <EnvironmentHostility>SAFE</EnvironmentHostility>
+    <AutoHealing>true</AutoHealing>
+    <EnableCopyPaste>false</EnableCopyPaste>
+    <WeaponsEnabled>true</WeaponsEnabled>
+    <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
+    <ThrusterDamage>true</ThrusterDamage>
+    <CargoShipsEnabled>true</CargoShipsEnabled>
+    <EnableSpectator>false</EnableSpectator>
+    <RemoveTrash>true</RemoveTrash>
+    <WorldSizeKm>0</WorldSizeKm>
+    <RespawnShipDelete>false</RespawnShipDelete>
+    <ResetOwnership>false</ResetOwnership>
+    <WelderSpeedMultiplier>5</WelderSpeedMultiplier>
+    <GrinderSpeedMultiplier>5</GrinderSpeedMultiplier>
+    <RealisticSound>false</RealisticSound>
+    <HackSpeedMultiplier>0.33</HackSpeedMultiplier>
+    <PermanentDeath>false</PermanentDeath>
+    <AutoSaveInMinutes>0</AutoSaveInMinutes>
+    <SpawnShipTimeMultiplier>0.5</SpawnShipTimeMultiplier>
+    <ProceduralDensity>0.25</ProceduralDensity>
+    <ProceduralSeed>1438827647</ProceduralSeed>
+    <DestructibleBlocks>true</DestructibleBlocks>
+    <EnableIngameScripts>true</EnableIngameScripts>
+    <ViewDistance>20000</ViewDistance>
+    <FloraDensity>20</FloraDensity>
+    <VoxelGeneratorVersion>2</VoxelGeneratorVersion>
+    <EnableOxygen>true</EnableOxygen>
+    <Enable3rdPersonView>true</Enable3rdPersonView>
+    <EnableEncounters>true</EnableEncounters>
+    <EnableFlora>true</EnableFlora>
+    <EnableStationVoxelSupport>true</EnableStationVoxelSupport>
+    <EnableSunRotation>false</EnableSunRotation>
+    <DisableRespawnShips>false</DisableRespawnShips>
+    <ScenarioEditMode>false</ScenarioEditMode>
+    <Battle>false</Battle>
+    <Scenario>false</Scenario>
+    <CanJoinRunning>false</CanJoinRunning>
+    <PhysicsIterations>4</PhysicsIterations>
+    <SunRotationIntervalMinutes>119.999992</SunRotationIntervalMinutes>
+    <EnableJetpack>true</EnableJetpack>
+    <SpawnWithTools>true</SpawnWithTools>
+    <StartInRespawnScreen>true</StartInRespawnScreen>
+    <EnableVoxelDestruction>true</EnableVoxelDestruction>
+    <MaxDrones>5</MaxDrones>
+    <EnableDrones>true</EnableDrones>
+    <EnableCyberhounds>true</EnableCyberhounds>
+    <EnableSpiders>true</EnableSpiders>
+    <FloraDensityMultiplier>1</FloraDensityMultiplier>
+    <EnableStructuralSimulation>false</EnableStructuralSimulation>
+    <MaxActiveFracturePieces>50</MaxActiveFracturePieces>
+  </Settings>
+  <ScriptManagerData>
+    <variables>
+      <dictionary>
+        <item>
+          <Key xsi:type="xsd:string">terminalsettings.xml</Key>
+          <Value xsi:type="xsd:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfSerializableKeyValuePairOfInt64NaniteTerminalSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">assemblersettings.xml</Key>
+          <Value xsi:type="xsd:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfSerializableKeyValuePairOfInt64NaniteAssemblerSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;SerializableKeyValuePairOfInt64NaniteAssemblerSettings&gt;
+    &lt;Key&gt;89913223346636397&lt;/Key&gt;
+    &lt;Value&gt;
+      &lt;AllowFactoryUsage&gt;false&lt;/AllowFactoryUsage&gt;
+    &lt;/Value&gt;
+  &lt;/SerializableKeyValuePairOfInt64NaniteAssemblerSettings&gt;
+&lt;/ArrayOfSerializableKeyValuePairOfInt64NaniteAssemblerSettings&gt;</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">NaniteControlFactory.HammerTerminalSettings</Key>
+          <Value xsi:type="xsd:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfSerializableKeyValuePairOfInt64NaniteHammerTerminalSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</Value>
+        </item>
+      </dictionary>
+    </variables>
+  </ScriptManagerData>
+  <AppVersion>1139009</AppVersion>
+  <Factions>
+    <Factions>
+      <MyObjectBuilder_Faction>
+        <FactionId>264139914100635388</FactionId>
+        <Tag>SPRT</Tag>
+        <Name>Space Pirates</Name>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855876</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+    </Factions>
+    <Players>
+      <dictionary>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855876</Key>
+          <Value xsi:type="xsd:long">264139914100635388</Value>
+        </item>
+      </dictionary>
+    </Players>
+    <Relations />
+    <Requests />
+  </Factions>
+  <Mods>
+    <ModItem>
+      <Name>530693136.sbm</Name>
+      <PublishedFileId>530693136</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>528645741.sbm</Name>
+      <PublishedFileId>528645741</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>531488481.sbm</Name>
+      <PublishedFileId>531488481</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>534249782.sbm</Name>
+      <PublishedFileId>534249782</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>574182850.sbm</Name>
+      <PublishedFileId>574182850</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>611860069.sbm</Name>
+      <PublishedFileId>611860069</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>611420971.sbm</Name>
+      <PublishedFileId>611420971</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>295393216.sbm</Name>
+      <PublishedFileId>295393216</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>294621451.sbm</Name>
+      <PublishedFileId>294621451</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>298550266.sbm</Name>
+      <PublishedFileId>298550266</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>337539313.sbm</Name>
+      <PublishedFileId>337539313</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>306848014.sbm</Name>
+      <PublishedFileId>306848014</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>563055135.sbm</Name>
+      <PublishedFileId>563055135</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>574189889.sbm</Name>
+      <PublishedFileId>574189889</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>584967882.sbm</Name>
+      <PublishedFileId>584967882</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>582527007.sbm</Name>
+      <PublishedFileId>582527007</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>305407372.sbm</Name>
+      <PublishedFileId>305407372</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>649590538.sbm</Name>
+      <PublishedFileId>649590538</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>315432320.sbm</Name>
+      <PublishedFileId>315432320</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>662423301.sbm</Name>
+      <PublishedFileId>662423301</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>636314268.sbm</Name>
+      <PublishedFileId>636314268</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>638040622.sbm</Name>
+      <PublishedFileId>638040622</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>643820962.sbm</Name>
+      <PublishedFileId>643820962</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>637257091.sbm</Name>
+      <PublishedFileId>637257091</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>661343416.sbm</Name>
+      <PublishedFileId>661343416</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>647339298.sbm</Name>
+      <PublishedFileId>647339298</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>588986208.sbm</Name>
+      <PublishedFileId>588986208</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>590273941.sbm</Name>
+      <PublishedFileId>590273941</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>555764855.sbm</Name>
+      <PublishedFileId>555764855</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>513562422.sbm</Name>
+      <PublishedFileId>513562422</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>565560367.sbm</Name>
+      <PublishedFileId>565560367</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>341579964.sbm</Name>
+      <PublishedFileId>341579964</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>405233525.sbm</Name>
+      <PublishedFileId>405233525</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>340829414.sbm</Name>
+      <PublishedFileId>340829414</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>445980520.sbm</Name>
+      <PublishedFileId>445980520</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>468593951.sbm</Name>
+      <PublishedFileId>468593951</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>667690387.sbm</Name>
+      <PublishedFileId>667690387</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>294618647.sbm</Name>
+      <PublishedFileId>294618647</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>412986157.sbm</Name>
+      <PublishedFileId>412986157</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>416810412.sbm</Name>
+      <PublishedFileId>416810412</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>412134393.sbm</Name>
+      <PublishedFileId>412134393</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>441722178.sbm</Name>
+      <PublishedFileId>441722178</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>358112540.sbm</Name>
+      <PublishedFileId>358112540</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>333093940.sbm</Name>
+      <PublishedFileId>333093940</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>644104483.sbm</Name>
+      <PublishedFileId>644104483</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>297371314.sbm</Name>
+      <PublishedFileId>297371314</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>534512234.sbm</Name>
+      <PublishedFileId>534512234</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>396679430.sbm</Name>
+      <PublishedFileId>396679430</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>536696922.sbm</Name>
+      <PublishedFileId>536696922</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>314697182.sbm</Name>
+      <PublishedFileId>314697182</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>294620323.sbm</Name>
+      <PublishedFileId>294620323</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>347612102.sbm</Name>
+      <PublishedFileId>347612102</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>328494103.sbm</Name>
+      <PublishedFileId>328494103</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>304787878.sbm</Name>
+      <PublishedFileId>304787878</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>344557207.sbm</Name>
+      <PublishedFileId>344557207</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>300571927.sbm</Name>
+      <PublishedFileId>300571927</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>340298930.sbm</Name>
+      <PublishedFileId>340298930</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>385778606.sbm</Name>
+      <PublishedFileId>385778606</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>375315957.sbm</Name>
+      <PublishedFileId>375315957</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>339694286.sbm</Name>
+      <PublishedFileId>339694286</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>387054218.sbm</Name>
+      <PublishedFileId>387054218</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>340933439.sbm</Name>
+      <PublishedFileId>340933439</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>327627089.sbm</Name>
+      <PublishedFileId>327627089</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>421640222.sbm</Name>
+      <PublishedFileId>421640222</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>402364310.sbm</Name>
+      <PublishedFileId>402364310</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>335780603.sbm</Name>
+      <PublishedFileId>335780603</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>571223608.sbm</Name>
+      <PublishedFileId>571223608</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>662241025.sbm</Name>
+      <PublishedFileId>662241025</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>478935145.sbm</Name>
+      <PublishedFileId>478935145</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>672919675.sbm</Name>
+      <PublishedFileId>672919675</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>294619787.sbm</Name>
+      <PublishedFileId>294619787</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>388580965.sbm</Name>
+      <PublishedFileId>388580965</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>341674761.sbm</Name>
+      <PublishedFileId>341674761</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>362506875.sbm</Name>
+      <PublishedFileId>362506875</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>539501493.sbm</Name>
+      <PublishedFileId>539501493</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>405687269.sbm</Name>
+      <PublishedFileId>405687269</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>405551312.sbm</Name>
+      <PublishedFileId>405551312</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>565446909.sbm</Name>
+      <PublishedFileId>565446909</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>498410560.sbm</Name>
+      <PublishedFileId>498410560</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>305329302.sbm</Name>
+      <PublishedFileId>305329302</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>518833572.sbm</Name>
+      <PublishedFileId>518833572</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>682619027.sbm</Name>
+      <PublishedFileId>682619027</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>381591639.sbm</Name>
+      <PublishedFileId>381591639</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>303808428.sbm</Name>
+      <PublishedFileId>303808428</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>436025957.sbm</Name>
+      <PublishedFileId>436025957</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>475375953.sbm</Name>
+      <PublishedFileId>475375953</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>629756445.sbm</Name>
+      <PublishedFileId>629756445</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>638780781.sbm</Name>
+      <PublishedFileId>638780781</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>449392448.sbm</Name>
+      <PublishedFileId>449392448</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>574680536.sbm</Name>
+      <PublishedFileId>574680536</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>655922051.sbm</Name>
+      <PublishedFileId>655922051</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>600062079.sbm</Name>
+      <PublishedFileId>600062079</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>648333580.sbm</Name>
+      <PublishedFileId>648333580</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>652337022.sbm</Name>
+      <PublishedFileId>652337022</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>667065157.sbm</Name>
+      <PublishedFileId>667065157</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>294555339.sbm</Name>
+      <PublishedFileId>294555339</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>386647996.sbm</Name>
+      <PublishedFileId>386647996</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>336484411.sbm</Name>
+      <PublishedFileId>336484411</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>354194728.sbm</Name>
+      <PublishedFileId>354194728</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>392575118.sbm</Name>
+      <PublishedFileId>392575118</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>306322478.sbm</Name>
+      <PublishedFileId>306322478</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>562591320.sbm</Name>
+      <PublishedFileId>562591320</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>301830183.sbm</Name>
+      <PublishedFileId>301830183</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>387333439.sbm</Name>
+      <PublishedFileId>387333439</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>428842256.sbm</Name>
+      <PublishedFileId>428842256</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>515625104.sbm</Name>
+      <PublishedFileId>515625104</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>356783566.sbm</Name>
+      <PublishedFileId>356783566</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>437139385.sbm</Name>
+      <PublishedFileId>437139385</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>469301711.sbm</Name>
+      <PublishedFileId>469301711</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>422841524.sbm</Name>
+      <PublishedFileId>422841524</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>685761329.sbm</Name>
+      <PublishedFileId>685761329</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>575893643.sbm</Name>
+      <PublishedFileId>575893643</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>371643209.sbm</Name>
+      <PublishedFileId>371643209</PublishedFileId>
+    </ModItem>
+  </Mods>
+  <PromotedUsers />
+  <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="Asteroids" />
+  <RespawnCooldowns />
+  <Identities>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855875</IdentityId>
+      <DisplayName>Seele</DisplayName>
+      <CharacterEntityId>94909950942329530</CharacterEntityId>
+      <Model>Worn Miner</Model>
+      <ColorMask x="0" y="-0.8" z="0.6" />
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855876</IdentityId>
+      <DisplayName>Space Pirates</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+  </Identities>
+  <PreviousEnvironmentHostility>SAFE</PreviousEnvironmentHostility>
+  <AllPlayersData>
+    <dictionary>
+      <item>
+        <Key xsi:type="PlayerId">
+          <ClientId>76561198021230045</ClientId>
+          <SerialId>0</SerialId>
+        </Key>
+        <Value xsi:type="MyObjectBuilder_Player">
+          <DisplayName>Seele</DisplayName>
+          <IdentityId>144115188075855875</IdentityId>
+          <Connected>true</Connected>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_MergeBlock" Subtype="LargeShipMergeBlock" />
+                </Data>
+              </Slot>
+            </Slots>
+          </Toolbar>
+          <CharacterCameraData EntityId="0">
+            <IsFirstPerson>true</IsFirstPerson>
+            <Distance>4.2076917267880294</Distance>
+            <HeadAngle x="0" y="0" />
+          </CharacterCameraData>
+          <EntityCameraData>
+            <CameraControllerSettings EntityId="74132358820078948">
+              <IsFirstPerson>false</IsFirstPerson>
+              <Distance>36.662104652340332</Distance>
+              <HeadAngle x="20.4768963" y="-30.9331818" />
+            </CameraControllerSettings>
+          </EntityCameraData>
+        </Value>
+      </item>
+    </dictionary>
+  </AllPlayersData>
+  <ChatHistory />
+  <FactionChatHistory />
+  <NonPlayerIdentities>
+    <long>144115188075855876</long>
+  </NonPlayerIdentities>
+  <Gps>
+    <dictionary>
+      <item>
+        <Key xsi:type="xsd:long">144115188075855875</Key>
+        <Value xsi:type="MyObjectBuilder_Gps">
+          <Entries>
+            <Entry>
+              <name>1.ferro, prata e ouro</name>
+              <description>Posição atual</description>
+              <coords>
+                <X>56925.85</X>
+                <Y>127053.38</Y>
+                <Z>-121508.22</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+            </Entry>
+            <Entry>
+              <name>3.prata, ferro e gelo</name>
+              <description>Posição atual</description>
+              <coords>
+                <X>55709.01</X>
+                <Y>127286.05</Y>
+                <Z>-130606.09</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+            </Entry>
+            <Entry>
+              <name>2.kobalto e ferro</name>
+              <description>Posição atual</description>
+              <coords>
+                <X>51202.53</X>
+                <Y>128549.89</Y>
+                <Z>-131730.55</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+            </Entry>
+            <Entry>
+              <name>4.ferro, gelo e nickel</name>
+              <description>Posição atual</description>
+              <coords>
+                <X>40269.14</X>
+                <Y>118254.8</Y>
+                <Z>-125473.74</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+            </Entry>
+            <Entry>
+              <name>5.potácio,urãnio,magnésio,ferro</name>
+              <description>Posição atual</description>
+              <coords>
+                <X>30714.44</X>
+                <Y>116494.25</Y>
+                <Z>-122179.67</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+            </Entry>
+            <Entry>
+              <name>6.prata,platina,ferro,urânio</name>
+              <description>Posição atual</description>
+              <coords>
+                <X>30639.06</X>
+                <Y>116064.7</Y>
+                <Z>-121954.75</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+            </Entry>
+            <Entry>
+              <name>7.prata,ferro</name>
+              <description>Posição atual</description>
+              <coords>
+                <X>30467.95</X>
+                <Y>115657.1</Y>
+                <Z>-121703.71</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+            </Entry>
+            <Entry>
+              <name>8.platina,gelo,ferro,urânio</name>
+              <description>Posição atual</description>
+              <coords>
+                <X>29191.18</X>
+                <Y>116071.03</Y>
+                <Z>-122199.09</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+            </Entry>
+            <Entry>
+              <name>9.prata,gelo,ferro</name>
+              <description>Posição atual</description>
+              <coords>
+                <X>30120.12</X>
+                <Y>117107.93</Y>
+                <Z>-123489.6</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+            </Entry>
+            <Entry>
+              <name>10.HOME.urânio,ferro</name>
+              <description>Posição atual</description>
+              <coords>
+                <X>40339.44</X>
+                <Y>114238.17</Y>
+                <Z>-123119.73</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+            </Entry>
+            <Entry>
+              <name>11.gelo</name>
+              <description>Posição atual</description>
+              <coords>
+                <X>39896.28</X>
+                <Y>109146.23</Y>
+                <Z>-122778.15</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+            </Entry>
+            <Entry>
+              <name>12.silicon,ferro,ouro,gelo</name>
+              <description>Posição atual</description>
+              <coords>
+                <X>45778.54</X>
+                <Y>108280.91</Y>
+                <Z>-123366.73</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+            </Entry>
+          </Entries>
+        </Value>
+      </item>
+    </dictionary>
+  </Gps>
+  <SessionComponents>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpaceFaunaComponent">
+      <SpawnInfos />
+      <TimeoutInfos />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpacePlanetTrackComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AIComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
+      <LastCoordSysId>1</LastCoordSysId>
+      <CoordSystems>
+        <CoordSysInfo>
+          <Id>0</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="0.24152936" y="0.08686284" z="-0.147123143" w="0.955234647" />
+          <Position x="40234.925730225448" y="114111.22795835813" z="-123298.61911562113" />
+        </CoordSysInfo>
+      </CoordSystems>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_Encounters" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_WorldGenerator">
+      <MarkedAreas />
+      <ExistingObjectsSeeds>
+        <MyObjectSeedParams>
+          <Index>2</Index>
+          <Seed>1500913749</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>4</Index>
+          <Seed>1783804801</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>7</Index>
+          <Seed>722295435</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>4</Index>
+          <Seed>1783804801</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>2</Index>
+          <Seed>1500913749</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>7</Index>
+          <Seed>722295435</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>4</Index>
+          <Seed>1783804801</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>2</Index>
+          <Seed>1500913749</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>7</Index>
+          <Seed>722295435</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>4</Index>
+          <Seed>1783804801</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>2</Index>
+          <Seed>1500913749</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>3</Index>
+          <Seed>1339233618</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>4</Index>
+          <Seed>1299943299</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+      </ExistingObjectsSeeds>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_PirateAntennas">
+      <PiratesIdentity>144115188075855876</PiratesIdentity>
+      <Drones />
+    </MyObjectBuilder_SessionComponent>
+  </SessionComponents>
+  <GameDefinition Type="MyObjectBuilder_GameDefinition" Subtype="Default" />
+  <SessionComponentEnabled />
+  <SessionComponentDisabled />
+  <InGameTime>2081-01-01T07:00:00</InGameTime>
+  <MissionTriggers>
+    <Triggers>
+      <dictionary>
+        <item>
+          <Key xsi:type="pair">
+            <stm>76561198021230045</stm>
+            <ser>0</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
+        <item>
+          <Key xsi:type="pair">
+            <stm>0</stm>
+            <ser>0</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
+      </dictionary>
+    </Triggers>
+  </MissionTriggers>
+</MyObjectBuilder_Checkpoint>
