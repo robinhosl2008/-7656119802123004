@@ -1,64 +1,106 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>91593760000</ElapsedGameTime>
+  <ElapsedGameTime>118813760000</ElapsedGameTime>
   <SessionName>Asteroides  2016-07-14 15:57</SessionName>
   <SpectatorPosition>
-    <Position x="40203.114650046795" y="114111.71836603398" z="-123279.62442957006" />
-    <Forward x="0.8736863" y="0.483148575" z="0.056917984" />
-    <Up x="-0.482126564" y="0.8755384" z="-0.03140908" />
+    <Position x="40232.064382366319" y="114239.4125635501" z="-122919.79359638262" />
+    <Forward x="-0.873351634" y="-0.4617365" z="0.155100986" />
+    <Up x="-0.454622924" y="0.887017131" z="0.08073777" />
     <Orientation>
-      <X>0.17056559</X>
-      <Y>-0.7066586</Y>
-      <Z>0.182039</Z>
-      <W>0.6621199</W>
+      <X>-0.152665526</X>
+      <Y>0.7444755</Y>
+      <Z>0.1821666</Z>
+      <W>0.6239109</W>
     </Orientation>
   </SpectatorPosition>
   <SpectatorIsLightOn>false</SpectatorIsLightOn>
-  <CameraController>Entity</CameraController>
-  <CameraEntity>94909950942329530</CameraEntity>
-  <ControlledObject>94909950942329530</ControlledObject>
+  <CameraController>ThirdPersonSpectator</CameraController>
+  <CameraEntity>0</CameraEntity>
+  <ControlledObject>107955207627987279</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2016-07-14T20:43:55.5606025-03:00</LastSaveTime>
-  <SpectatorDistance>36.6621056</SpectatorDistance>
+  <LastSaveTime>2016-07-14T22:39:19.6623387-03:00</LastSaveTime>
+  <SpectatorDistance>1.41840076</SpectatorDistance>
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
-    <SelectedSlot>0</SelectedSlot>
+    <SelectedSlot xsi:nil="true" />
     <Slots>
       <Slot>
         <Index>0</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>1</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
           <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
         </Data>
       </Slot>
       <Slot>
-        <Index>2</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>3</Index>
+        <Index>1</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
           <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
         </Data>
       </Slot>
       <Slot>
-        <Index>4</Index>
+        <Index>2</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>3</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="PreciseAutomaticRifleItem" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>5</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_MergeBlock" Subtype="LargeShipMergeBlock" />
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="NASA_StructureCube" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>6</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="NASA_StructureSlope" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>7</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="NM_SolarPanelStructure" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>9</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeShipConveyorTubeMedium_SEBuilder4" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>10</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeShipConveyorTubeCurvedMedium_SEBuilder4" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>11</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTube" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>12</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurved" />
         </Data>
       </Slot>
     </Slots>
@@ -66,9 +108,9 @@
   <ControlledEntities>
     <dictionary>
       <item>
-        <Key xsi:type="xsd:long">94909950942329530</Key>
+        <Key xsi:type="xsd:long">107955207627987279</Key>
         <Value xsi:type="PlayerId">
-          <ClientId>76561198021230045</ClientId>
+          <ClientId>76561198056683727</ClientId>
           <SerialId>0</SerialId>
         </Value>
       </item>
@@ -152,6 +194,18 @@
       &lt;AllowFactoryUsage&gt;false&lt;/AllowFactoryUsage&gt;
     &lt;/Value&gt;
   &lt;/SerializableKeyValuePairOfInt64NaniteAssemblerSettings&gt;
+  &lt;SerializableKeyValuePairOfInt64NaniteAssemblerSettings&gt;
+    &lt;Key&gt;128648431410905317&lt;/Key&gt;
+    &lt;Value&gt;
+      &lt;AllowFactoryUsage&gt;false&lt;/AllowFactoryUsage&gt;
+    &lt;/Value&gt;
+  &lt;/SerializableKeyValuePairOfInt64NaniteAssemblerSettings&gt;
+  &lt;SerializableKeyValuePairOfInt64NaniteAssemblerSettings&gt;
+    &lt;Key&gt;78461509048641544&lt;/Key&gt;
+    &lt;Value&gt;
+      &lt;AllowFactoryUsage&gt;false&lt;/AllowFactoryUsage&gt;
+    &lt;/Value&gt;
+  &lt;/SerializableKeyValuePairOfInt64NaniteAssemblerSettings&gt;
 &lt;/ArrayOfSerializableKeyValuePairOfInt64NaniteAssemblerSettings&gt;</Value>
         </item>
         <item>
@@ -162,7 +216,7 @@
       </dictionary>
     </variables>
   </ScriptManagerData>
-  <AppVersion>1139009</AppVersion>
+  <AppVersion>1144003</AppVersion>
   <Factions>
     <Factions>
       <MyObjectBuilder_Faction>
@@ -183,6 +237,30 @@
         <AcceptHumans>true</AcceptHumans>
         <EnableFriendlyFire>false</EnableFriendlyFire>
       </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>245273259043305656</FactionId>
+        <Tag>RMS</Tag>
+        <Name>RMS Corporation</Name>
+        <Description>Projeto de Instrumentabilidade espacial</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855875</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855877</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>false</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>true</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
     </Factions>
     <Players>
       <dictionary>
@@ -190,9 +268,23 @@
           <Key xsi:type="xsd:long">144115188075855876</Key>
           <Value xsi:type="xsd:long">264139914100635388</Value>
         </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855875</Key>
+          <Value xsi:type="xsd:long">245273259043305656</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855877</Key>
+          <Value xsi:type="xsd:long">245273259043305656</Value>
+        </item>
       </dictionary>
     </Players>
-    <Relations />
+    <Relations>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>264139914100635388</FactionId1>
+        <FactionId2>245273259043305656</FactionId2>
+        <Relation>Enemies</Relation>
+      </MyObjectBuilder_FactionRelation>
+    </Relations>
     <Requests />
   </Factions>
   <Mods>
@@ -655,8 +747,8 @@
   <Identities>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855875</IdentityId>
-      <DisplayName>Seele</DisplayName>
-      <CharacterEntityId>94909950942329530</CharacterEntityId>
+      <DisplayName>Michael</DisplayName>
+      <CharacterEntityId>107955207627987279</CharacterEntityId>
       <Model>Worn Miner</Model>
       <ColorMask x="0" y="-0.8" z="0.6" />
     </MyObjectBuilder_Identity>
@@ -665,10 +757,135 @@
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
     </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855877</IdentityId>
+      <DisplayName>Seele</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <Model>Default_Astronaut</Model>
+      <ColorMask x="0" y="-0.8" z="0.6" />
+    </MyObjectBuilder_Identity>
   </Identities>
+  <Clients>
+    <MyObjectBuilder_Client>
+      <SteamId>76561198056683727</SteamId>
+      <Name>Michael</Name>
+      <IsAdmin>true</IsAdmin>
+    </MyObjectBuilder_Client>
+    <MyObjectBuilder_Client>
+      <SteamId>76561198021230045</SteamId>
+      <Name>Seele</Name>
+      <IsAdmin>false</IsAdmin>
+    </MyObjectBuilder_Client>
+  </Clients>
   <PreviousEnvironmentHostility>SAFE</PreviousEnvironmentHostility>
   <AllPlayersData>
     <dictionary>
+      <item>
+        <Key xsi:type="PlayerId">
+          <ClientId>76561198056683727</ClientId>
+          <SerialId>0</SerialId>
+        </Key>
+        <Value xsi:type="MyObjectBuilder_Player">
+          <DisplayName>Michael</DisplayName>
+          <IdentityId>144115188075855875</IdentityId>
+          <Connected>true</Connected>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="PreciseAutomaticRifleItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="NASA_StructureCube" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>6</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="NASA_StructureSlope" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>7</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="NM_SolarPanelStructure" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>9</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeShipConveyorTubeMedium_SEBuilder4" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>10</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeShipConveyorTubeCurvedMedium_SEBuilder4" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>11</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTube" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>12</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurved" />
+                </Data>
+              </Slot>
+            </Slots>
+          </Toolbar>
+          <CharacterCameraData EntityId="0">
+            <IsFirstPerson>false</IsFirstPerson>
+            <Distance>1.4184008013582399</Distance>
+            <HeadAngle x="10.7055016" y="0" />
+          </CharacterCameraData>
+          <EntityCameraData>
+            <CameraControllerSettings EntityId="74132358820078948">
+              <IsFirstPerson>false</IsFirstPerson>
+              <Distance>24.93561271727765</Distance>
+              <HeadAngle x="0" y="0" />
+            </CameraControllerSettings>
+          </EntityCameraData>
+        </Value>
+      </item>
       <item>
         <Key xsi:type="PlayerId">
           <ClientId>76561198021230045</ClientId>
@@ -676,7 +893,7 @@
         </Key>
         <Value xsi:type="MyObjectBuilder_Player">
           <DisplayName>Seele</DisplayName>
-          <IdentityId>144115188075855875</IdentityId>
+          <IdentityId>144115188075855877</IdentityId>
           <Connected>true</Connected>
           <Toolbar>
             <ToolbarType>Character</ToolbarType>
@@ -720,22 +937,30 @@
             </Slots>
           </Toolbar>
           <CharacterCameraData EntityId="0">
-            <IsFirstPerson>true</IsFirstPerson>
-            <Distance>4.2076917267880294</Distance>
-            <HeadAngle x="0" y="0" />
+            <IsFirstPerson>false</IsFirstPerson>
+            <Distance>1.4184008013582399</Distance>
+            <HeadAngle x="10.7055016" y="0" />
           </CharacterCameraData>
           <EntityCameraData>
             <CameraControllerSettings EntityId="74132358820078948">
               <IsFirstPerson>false</IsFirstPerson>
-              <Distance>36.662104652340332</Distance>
-              <HeadAngle x="20.4768963" y="-30.9331818" />
+              <Distance>45.881724190189992</Distance>
+              <HeadAngle x="9.876314" y="-19.1699162" />
             </CameraControllerSettings>
           </EntityCameraData>
         </Value>
       </item>
     </dictionary>
   </AllPlayersData>
-  <ChatHistory />
+  <ChatHistory>
+    <MyObjectBuilder_ChatHistory>
+      <IdentityId>144115188075855875</IdentityId>
+      <PlayerChatHistory />
+      <GlobalChatHistory>
+        <Chat />
+      </GlobalChatHistory>
+    </MyObjectBuilder_ChatHistory>
+  </ChatHistory>
   <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855876</long>
@@ -755,7 +980,7 @@
                 <Z>-121508.22</Z>
               </coords>
               <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
+              <showOnHud>false</showOnHud>
               <alwaysVisible>false</alwaysVisible>
             </Entry>
             <Entry>
@@ -767,7 +992,7 @@
                 <Z>-130606.09</Z>
               </coords>
               <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
+              <showOnHud>false</showOnHud>
               <alwaysVisible>false</alwaysVisible>
             </Entry>
             <Entry>
@@ -779,7 +1004,7 @@
                 <Z>-131730.55</Z>
               </coords>
               <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
+              <showOnHud>false</showOnHud>
               <alwaysVisible>false</alwaysVisible>
             </Entry>
             <Entry>
@@ -791,7 +1016,7 @@
                 <Z>-125473.74</Z>
               </coords>
               <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
+              <showOnHud>false</showOnHud>
               <alwaysVisible>false</alwaysVisible>
             </Entry>
             <Entry>
@@ -803,7 +1028,7 @@
                 <Z>-122179.67</Z>
               </coords>
               <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
+              <showOnHud>false</showOnHud>
               <alwaysVisible>false</alwaysVisible>
             </Entry>
             <Entry>
@@ -815,7 +1040,7 @@
                 <Z>-121954.75</Z>
               </coords>
               <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
+              <showOnHud>false</showOnHud>
               <alwaysVisible>false</alwaysVisible>
             </Entry>
             <Entry>
@@ -827,7 +1052,7 @@
                 <Z>-121703.71</Z>
               </coords>
               <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
+              <showOnHud>false</showOnHud>
               <alwaysVisible>false</alwaysVisible>
             </Entry>
             <Entry>
@@ -839,7 +1064,7 @@
                 <Z>-122199.09</Z>
               </coords>
               <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
+              <showOnHud>false</showOnHud>
               <alwaysVisible>false</alwaysVisible>
             </Entry>
             <Entry>
@@ -851,19 +1076,7 @@
                 <Z>-123489.6</Z>
               </coords>
               <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
-              <alwaysVisible>false</alwaysVisible>
-            </Entry>
-            <Entry>
-              <name>10.HOME.urânio,ferro</name>
-              <description>Posição atual</description>
-              <coords>
-                <X>40339.44</X>
-                <Y>114238.17</Y>
-                <Z>-123119.73</Z>
-              </coords>
-              <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
+              <showOnHud>false</showOnHud>
               <alwaysVisible>false</alwaysVisible>
             </Entry>
             <Entry>
@@ -875,7 +1088,7 @@
                 <Z>-122778.15</Z>
               </coords>
               <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
+              <showOnHud>false</showOnHud>
               <alwaysVisible>false</alwaysVisible>
             </Entry>
             <Entry>
@@ -887,10 +1100,16 @@
                 <Z>-123366.73</Z>
               </coords>
               <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
+              <showOnHud>false</showOnHud>
               <alwaysVisible>false</alwaysVisible>
             </Entry>
           </Entries>
+        </Value>
+      </item>
+      <item>
+        <Key xsi:type="xsd:long">144115188075855877</Key>
+        <Value xsi:type="MyObjectBuilder_Gps">
+          <Entries />
         </Value>
       </item>
     </dictionary>
@@ -1009,6 +1228,69 @@
           <Generated>true</Generated>
           <m_proxyId>-1</m_proxyId>
         </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>5</Index>
+          <Seed>1684866169</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>7</Index>
+          <Seed>722295435</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>3</Index>
+          <Seed>1339233618</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>4</Index>
+          <Seed>1299943299</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>4</Index>
+          <Seed>1783804801</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>2</Index>
+          <Seed>1500913749</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>2</Index>
+          <Seed>1500913749</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>4</Index>
+          <Seed>1783804801</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+        <MyObjectSeedParams>
+          <Index>3</Index>
+          <Seed>1339233618</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
       </ExistingObjectsSeeds>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_PirateAntennas">
@@ -1038,6 +1320,18 @@
         <item>
           <Key xsi:type="pair">
             <stm>0</stm>
+            <ser>0</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
+        <item>
+          <Key xsi:type="pair">
+            <stm>76561198056683727</stm>
             <ser>0</ser>
           </Key>
           <Value xsi:type="MyObjectBuilder_MissionTriggers">
