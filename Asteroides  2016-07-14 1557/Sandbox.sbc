@@ -306,7 +306,7 @@
     </dictionary>
   </ControlledEntities>
   <Settings xsi:type="MyObjectBuilder_SessionSettings">
-    <GameMode>Survival</GameMode>
+    <GameMode>Creative</GameMode>
     <InventorySizeMultiplier>10</InventorySizeMultiplier>
     <AssemblerSpeedMultiplier>10</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>10</AssemblerEfficiencyMultiplier>
@@ -331,7 +331,7 @@
     <RealisticSound>false</RealisticSound>
     <HackSpeedMultiplier>0.33</HackSpeedMultiplier>
     <PermanentDeath>false</PermanentDeath>
-    <AutoSaveInMinutes>5</AutoSaveInMinutes>
+    <AutoSaveInMinutes>0</AutoSaveInMinutes>
     <SpawnShipTimeMultiplier>0.5</SpawnShipTimeMultiplier>
     <ProceduralDensity>0.25</ProceduralDensity>
     <ProceduralSeed>1438827647</ProceduralSeed>
@@ -997,6 +997,14 @@
       <Name>670718659.sbm</Name>
       <PublishedFileId>670718659</PublishedFileId>
     </ModItem>
+    <ModItem>
+      <Name>668429328.sbm</Name>
+      <PublishedFileId>668429328</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>686760479.sbm</Name>
+      <PublishedFileId>686760479</PublishedFileId>
+    </ModItem>
   </Mods>
   <PromotedUsers />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="Asteroids" />
@@ -1593,6 +1601,7 @@
               <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
           </EntityCameraData>
+          <BuildColorSlots />
         </Value>
       </item>
     </dictionary>
@@ -1870,7 +1879,9 @@
       </CoordSystems>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
-    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_Encounters" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_Encounters">
+      <SavedEcounters />
+    </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_WorldGenerator">
       <MarkedAreas />
       <ExistingObjectsSeeds>
